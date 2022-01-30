@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-size: 13px;
-    line-height: 22px;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -29,7 +28,7 @@ p {
 /* MAIN */
 
 .main {
-    width: 75%;
+    width: 1000px;
     margin: 5% auto auto;
     display: flex;
     justify-content: center;
@@ -66,7 +65,7 @@ p {
 /* MAIN LEFT */
 
 .main__left {
-    width: 70%;
+    width: 750px;
     display: flex;
     flex-direction: column;
 }
@@ -83,7 +82,8 @@ p {
     display: inline-block;
     background-color: #733FC8;
     color: white;
-    width: 63%;
+    width: 500px;
+    height: 300px;
     margin: 0 3% 0 0;
 }
 
@@ -91,7 +91,7 @@ p {
     display: inline-block;
     background-color: #49556B;
     color: white;
-    width: 30%;
+    width: 250px;
 }
 
 
@@ -105,7 +105,7 @@ p {
 .main__left__row2--card1 {
     display: inline-block;
     background-color: #FFFFFF;
-    width: 30%;
+    width: 250px;
     margin: 0 3% 0 0;
 }
 
@@ -113,7 +113,7 @@ p {
     display: inline-block;
     background-color: #202632;
     color: white;
-    width: 63%;
+    width: 500px;
 }
 
 .main__left__row2--card2 .profile-photo {
@@ -126,12 +126,14 @@ p {
 
 .main__right {
     display: flex;
-    width: 20%;
+    align-items: center;
+    width: 250px;
 }
 
 .main__right--card1 {
     background-color: #FFFFFF;
+    width: 250px;
     height: 100%;
-    margin: auto;
+    margin-left: 10%;
     padding: 7.5%;
 }

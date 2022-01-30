@@ -22,7 +22,7 @@ h4 {
 
 p {
     font-weight: 500;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 
@@ -36,9 +36,19 @@ p {
 }
 
 .card {
+    display: inline-block;
     box-shadow: 5px 10px rgba(162, 165, 170, 0.1);
     border-radius: 10px;
     padding: 3%;
+}
+
+.big-card {
+    color: white;
+    width: 500px;
+}
+
+.small-card {
+    width: 250px;
 }
 
 .personal-info {
@@ -66,9 +76,9 @@ p {
 /* MAIN LEFT */
 
 .main__left {
-    width: 750px;
     display: flex;
     flex-direction: column;
+    width: 750px;
 }
 
 
@@ -80,19 +90,13 @@ p {
 }
 
 .main__left__row1--card1 {
-    display: inline-block;
     background-color: #733FC8;
-    color: white;
-    width: 500px;
-    height: 300px;
     margin: 0 3% 0 0;
 }
 
 .main__left__row1--card2 {
-    display: inline-block;
     background-color: #49556B;
     color: white;
-    width: 250px;
 }
 
 .main__left__row1--card2 .personal-info {
@@ -108,9 +112,7 @@ p {
 }
 
 .main__left__row2--card1 {
-    display: inline-block;
     background-color: #FFFFFF;
-    width: 250px;
     margin: 0 3% 0 0;
 }
 
@@ -119,10 +121,7 @@ p {
 }
 
 .main__left__row2--card2 {
-    display: inline-block;
     background-color: #18202D;
-    color: white;
-    width: 500px;
 }
 
 .main__left__row2--card2 .profile-photo {
@@ -140,14 +139,13 @@ p {
 
 .main__right--card1 {
     background-color: #FFFFFF;
-    width: 250px;
     height: 100%;
     margin-left: 10%;
     padding: 7.5%;
 }
 
 .main__right--card1 .personal-info {
-    margin: 0 auto 10%;
+    margin-bottom: 10%;
 }
 
 @media screen and (max-width: 1100px) {

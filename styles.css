@@ -38,8 +38,14 @@ p {
 .card {
     display: inline-block;
     box-shadow: 5px 10px rgba(162, 165, 170, 0.1);
+    border: 3px solid grey;
     border-radius: 10px;
     padding: 3%;
+}
+
+.card:hover {
+    border: 3px solid #FFCC00;
+    box-shadow: 5px 10px rgba(255, 204, 0, 0.1);
 }
 
 .big-card {
